@@ -1,0 +1,15 @@
+/* Footer */
+footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+footer a {
+    color: var(--white-color);
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: var(--yellow-color);
+}

@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Currency Exchange Rates</title>
+    <link rel="stylesheet" href="./src/css/style.min.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Live Currency Exchange Rates</h1>
+        <p>Updated in real-time using the HG Brasil API</p>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2 id="currDate">Exchange Rates as of </h2>
+            <div id="main"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Powered by <a href="https://hgbrasil.com/" target="_blank">HG Brasil API</a></p>
+        <br>
+        <p><a href="https://leandro-crixi.netlify.app/">Leandro Crisci</a> &copy; <span id="current-year"></span>
+            Currency Exchange Rates</p>
+    </footer>
+    <script src="./src/js/script.min.js" type="module" defer></script>
 </body>
+
 </html>

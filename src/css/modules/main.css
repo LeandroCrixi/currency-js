@@ -1,0 +1,64 @@
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: var(--white-color);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    color: var(--black-light-color);
+}
+
+/* Currency List */
+h2 {
+    font-size: 1.8rem;
+    color: var(--blue-color);
+    margin-bottom: 15px;
+}
+
+/* Currency Cards */
+#currencies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.currency-card {
+    background: var(--white-dark-color);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.currency-card div:first-child{
+    margin-bottom: 20px;
+    border-bottom: dotted lightgray 1px;
+}
+
+.currency-card input{
+    width: 150px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 5px 0px;
+}
+
+.currency-card h3 {
+    color: var(--blue-color);
+    font-size: 1.2rem;
+}
+
+.currency-card p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--black-light-color);
+    margin-top: 5px;
+}
+
+.currency-card .initial{
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.currency-card .result{
+    color: var(--gray-color);
+}

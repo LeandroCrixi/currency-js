@@ -1,0 +1,15 @@
+/* Reset & General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body */
+body {
+    background: linear-gradient(135deg, #007bff, #004085);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

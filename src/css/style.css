@@ -1,3 +1,5 @@
-div{
-    color: black;
-}
+@import './modules/global.css';
+@import './modules/variables.css';
+@import './modules/header.css';
+@import './modules/main.css';
+@import './modules/footer.css';
