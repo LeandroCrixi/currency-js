@@ -8,8 +8,9 @@
 
 /* Body */
 body {
-    background: linear-gradient(135deg, #007bff, #004085);
+    background: linear-gradient(180deg, #053c5e, #1F7A8C);
     color: white;
     text-align: center;
     padding: 20px;
+    height: 100%;
 }

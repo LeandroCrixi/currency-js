@@ -11,7 +11,7 @@
 /* Currency List */
 h2 {
     font-size: 1.8rem;
-    color: var(--blue-color);
+    color: #1F7A8C;
     margin-bottom: 15px;
 }
 
@@ -35,6 +35,16 @@ h2 {
     border-bottom: dotted lightgray 1px;
 }
 
+#title {
+    color: var(--blue-color);
+    font-size: 1.2rem;
+}
+
+#initial{
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
 .currency-card input{
     width: 150px;
     text-align: center;
@@ -42,23 +52,7 @@ h2 {
     margin: 5px 0px;
 }
 
-.currency-card h3 {
-    color: var(--blue-color);
-    font-size: 1.2rem;
-}
-
-.currency-card p {
-    font-size: 1rem;
-    font-weight: bold;
-    color: var(--black-light-color);
-    margin-top: 5px;
-}
-
-.currency-card .initial{
-    font-size: 0.9rem;
-    font-weight: normal;
-}
-
-.currency-card .result{
+#result{
     color: var(--gray-color);
+    font-weight: bold;
 }
