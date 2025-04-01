@@ -8,10 +8,25 @@
     "watch-css": "npx nodemon --delay 20000ms -e css -x \"npm run minify-css\"",
     "minify-js": "npx terser ./src/js/script.js -o ./src/js/script.min.js --compress --mangle",
     "watch-js": "npx nodemon --delay 20 -e js -x \"npm run minify-js\"",
-    "watch": "npx concurrently \"npm run watch-css\" \"npm run watch-js\"" 
+    "watch": "npx concurrently \"npm run watch-css\" \"npm run watch-js\"",
+    "build": "tsc",
+    "start": "node dist/dom.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.16",
+    "typescript": "^5.8.2"
+  },
+  "compilerOptions": {
+    "outDir": "./src/js/dist", 
+    "rootDir": "./src/js/modules", 
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ES6",
+    "allowJs": true,
+    "esModuleInterop": true
+  }
 }
